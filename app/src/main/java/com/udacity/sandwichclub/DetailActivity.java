@@ -57,6 +57,7 @@ public class DetailActivity extends AppCompatActivity {
     }
 
     private void populateUI() {
-
+        finish();
+        Toast.makeText(this, "found item in the json", Toast.LENGTH_LONG).show();
     }
 }
